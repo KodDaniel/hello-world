@@ -1,5 +1,5 @@
 {
-    "name": "daniel/hello-world",
+    "name": "danielahlin/hello-world",
     "description": "An hello world description package",
     "type": "library",
     "require": {
@@ -12,6 +12,11 @@
     "autoload": {
         "psr-4": {
             "Daniel\\HelloWorld\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Daniel\\HelloWorld\\Tests\\": "tests/"
         }
     },
     "authors": [
