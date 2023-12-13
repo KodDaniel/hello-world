@@ -14,6 +14,11 @@
             "Daniel\\HelloWorld\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Daniel\\HelloWorld\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "KodDaniel",
